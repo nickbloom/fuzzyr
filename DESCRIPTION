@@ -1,0 +1,17 @@
+Package: fuzzyr
+Title: Fuzzy String Matching
+Version: 0.1
+Authors@R: person("Nick", "Bloom", email = "nick.bloom@duke.edu", role = c("aut", "cre"))
+Description: This package provides a number of functions for fuzzy string
+    matching in R. It approximates the fuzzywuzzy package for Python, but is not a
+    one-to-one copy of it.
+Depends:
+    R (>= 3.3.1)
+Imports:
+    stringdist,
+    compiler,
+    purrr,stringi,magrittr
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
