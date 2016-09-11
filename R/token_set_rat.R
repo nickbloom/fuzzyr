@@ -11,8 +11,8 @@ stopwords <- c('and', '&', 'of', 'the', 'an', 'a')
 
 
 
-.token_set_rat <- function(x1, x2, extra_stops = c()){
-  stopwords <- c(stopwords, extra_stops)
+.token_set_rat <- function(x1, x2, stops = c()){
+  stopwords <- c(stopwords, stops)
   x1c <- gsub('&', 'and', x1) 
   x1c <- gsub('[[:punct:]]', '', x1c) 
   x1c <- tolower(x1c) 
