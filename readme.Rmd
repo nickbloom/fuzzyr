@@ -1,12 +1,11 @@
 # fuzzyr: Fuzzy String Matching for R
 
-```
+`fuzzyr` provides fuzzy string matching in R. Whereas `stringdist` provides basic comparison methods, most useful for single-word strings, `fuzzyr` provides methods for comparings more complex strings, like organization names, recording artists, and a host of other situations. The package will be on CRAN in the near future. For now, install with `devtools::install_github('nickbloom/fuzzyr')`. 
 
-```
+&nbsp;
+&nbsp;
 
-
-
-Like the [fuzzywuzzy](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/) module for python, all fuzzyr funtions return string similarity scores between 0 and 100.
+For now, `fuzzyr` provides four basic comparison functions. Like the [fuzzywuzzy](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/) module for python, all `fuzzyr` funtions return string similarity scores between 0 and 100.
 
 ### fuzz_ratio
 
