@@ -5,7 +5,7 @@
 &nbsp;
 &nbsp;
 
-For now, `fuzzyr` provides four basic comparison functions. Like the [fuzzywuzzy](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/) module for python, all `fuzzyr` funtions return string similarity scores between 0 and 100.
+For now, `fuzzyr` provides four basic comparison functions. Like the [fuzzywuzzy](http://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/) module for python, all `fuzzyr` functions return string similarity scores between 0 and 100.
 
 ### fuzz_ratio
 
