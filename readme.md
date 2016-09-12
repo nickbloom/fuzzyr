@@ -9,7 +9,7 @@ For now, `fuzzyr` provides four basic comparison functions. Like the [fuzzywuzzy
 
 ### fuzz_ratio
 
-`fuzz_ratio` is the simplest function. It simply returns the ratio of the number of unshared characters in two strings to the length of the two strings.
+`fuzz_ratio` is the simplest function. It simply returns the ratio of the number of shared characters in two strings to the length of the two strings.
 
 
 ```r
